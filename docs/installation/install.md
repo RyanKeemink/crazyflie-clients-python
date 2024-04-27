@@ -28,7 +28,7 @@ The ```--system-site-packages``` is the most important there since it allows to 
 The same flag can be passes to ```python3 -m venv``` in order to create a python venv that can run the client.
 The first time ```pipx``` will complain about binaries not being in the path. Rebooting the pie solves the problem and then the client can be launched by typing ```cfclient``` in a console.
 
-Permission for USB needs to be set as described bellow for Debian/Ubuntu
+Permission for USB needs to be set as described below for Debian/Ubuntu
 
 
 ### Debian/Ubuntu
@@ -40,7 +40,7 @@ sudo apt install git python3-pip libxcb-xinerama0 libxcb-cursor0
 pip3 install --upgrade pip
 ```
 
-> For some versions of Ubuntu 20.04 you might need to install more packes like `libxcb-cursor0`. Check out [QT6 package dependency list]( https://doc.qt.io/qt-6/linux-requirements.html).
+> For some versions of Ubuntu 20.04 you might need to install more packages like `libxcb-cursor0`. Check out [QT6 package dependency list]( https://doc.qt.io/qt-6/linux-requirements.html).
 
 #### Setting udev permissions
 
@@ -82,7 +82,7 @@ The client can be installed on command line with pip:
 python3 -m pip install cfclient
 ```
 
-The client can then be lauched from a console, wither with ```cfclient``` or ```python3 -m cfclient.gui```.
+The client can then be launched from a console, wither with ```cfclient``` or ```python3 -m cfclient.gui```.
 
 ## Installing from latest release
 
@@ -199,7 +199,7 @@ This will run the lint checkers defined in `.pre-commit-config-yaml` on your pro
 
 ### Working with the GUI .ui files
 
-you can edit the .ui files for the GUI with QtCreator. For Windows and Mac You can the Qt development kit from the [Qt website](https://www.qt.io/download-open-source/). On linux QtCreator is usually available as package, for example on Ubuntu it can be installed with ```sudo apt install qtcreator```.
+you can edit the .ui files for the GUI with QtCreator. For Windows and Mac you can get Qt development kit from the [Qt website](https://www.qt.io/download-open-source/). On linux QtCreator is usually available as package, for example on Ubuntu it can be installed with ```sudo apt install qtcreator```.
 
 ### Debugging the client from an IDE
 
